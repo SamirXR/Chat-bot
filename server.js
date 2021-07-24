@@ -22,7 +22,7 @@ client.on("message", async message => {
   x.chat({
     message: message.content,
     name: client.user.username,
-    owner: "Zero",
+    owner: "XR7",
     user: message.author.id,
     language: "en"
   }).then(reply => {
