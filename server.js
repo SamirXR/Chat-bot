@@ -20,7 +20,7 @@ client.on("messageCreate", async message => {
       ephemeral: true
     });
   }
-  if (!message.content.
+  if (!message.content)
     return message.reply({
       content: "I can only reply to text messages",
       ephemeral: true
