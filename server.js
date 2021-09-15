@@ -29,9 +29,9 @@ client.on("messageCreate", async message => {
   x.chat({
     message: message.content,
     name: client.user.username,
-    owner: "mike",
+    owner: "XR7",
     user: message.author.id,
-    language:"hi"
+    language:"en"
   }).then(reply => {
     message.channel.sendTyping();
     message.reply(`${reply}`);
