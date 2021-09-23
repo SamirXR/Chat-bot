@@ -31,7 +31,7 @@ client.on("messageCreate", async message => {
     name: client.user.username,
     owner: "XR7",
     user: message.author.id,
-    language:"auto"
+    language:"hi"
   }).then(reply => {
     message.channel.sendTyping();
     message.reply(`${reply}`);
