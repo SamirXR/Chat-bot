@@ -10,7 +10,7 @@
     "abortcontroller-polyfill": "^1.7.3",
     "chatbot-zero": "^1.1.0",
     "discord.js": "^13.1.0",
-    "smartestchatbot": "^2.0.0",
+    "smartestchatbot": "^2.0.1",
     "v": "^0.3.0"
   },
   "engines": {
