@@ -11,7 +11,6 @@ client.on("ready", () => {
 client.on("messageCreate", async message => {
   // when client detects a message
   if (message.author.bot) return; // if the author of the message is a bot ignore the case
-   if (message.content.length == 0 || message.content.split(" ")[0] != "pre")https://glitch.com/ return;
   message.content = message.content
     .replace(/@(everyone)/gi, "everyone")
     .replace(/@(here)/gi, "here");
@@ -31,7 +30,7 @@ client.on("messageCreate", async message => {
     name: client.user.username,
     owner: "XR7",
     user: message.author.id,
-    language:"ur"
+    language: "en"
   }).then(reply => {
     message.channel.sendTyping();
     message.reply(`${reply}`);
