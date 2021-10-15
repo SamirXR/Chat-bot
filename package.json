@@ -9,11 +9,10 @@
   "dependencies": {
     "chatbot-zero": "^1.1.0",
     "smartestchatbot": "^2.0.1",
-    "discord.js": "^13.1.0",
-    "abortcontroller-polyfill": "^1.7.3"
+    "discord.js": "^13.2.0"
   },
   "engines": {
-    "node": "14.x"
+    "node": "16.x"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/hello-express"
